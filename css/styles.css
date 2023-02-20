@@ -278,6 +278,7 @@ display: flex;
 
 /*------------------------Main button------------------------*/
 .button-submit {
+  cursor: pointer;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -691,6 +692,7 @@ background: var(--secondary-text-color);
 }
 
 .button-primary {
+  cursor: pointer;
   position: relative;
   padding: 8px 64px 8px 24px;
   background: var(--accent-color);
@@ -750,6 +752,7 @@ background: var(--secondary-text-color);
 
 .modal-close-btn {
   position: absolute;
+  cursor: pointer;
   display: flex;
   justify-content:center;
   align-items: center;
@@ -777,6 +780,10 @@ background: var(--secondary-text-color);
   fill: var(--primary-white-color);
 }
 
+.color-privacy{
+  color: var(--accent-color);
+}
+
 /*----------MODAL FORM---------*/
 
 .modal-text-aler {
@@ -785,7 +792,7 @@ background: var(--secondary-text-color);
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #2E2F42;
+  color:var(--secondary-text-color);
   margin-bottom: 14px;
   }
   
@@ -872,7 +879,7 @@ background: var(--secondary-text-color);
   cursor: pointer;
   width: 16px;
   height: 16px;
-  border: 1.25px solid #2E2F42;
+  border: 1.25px solid var(--secondary-text-color);
   border-radius: 2px;
   margin-right: 4px;
   background-repeat: no-repeat;
@@ -897,6 +904,7 @@ background: var(--secondary-text-color);
 }
 
 .modal-form-submit {
+  cursor: pointer;
   align-self: center;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
